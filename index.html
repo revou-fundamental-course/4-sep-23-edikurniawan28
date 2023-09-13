@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kalkulator Bangun Datar </title>
+    <link rel="stylesheet" href="css/style.css"> <!--this is the code to call css from external folder-->
+    <!--javascript code is in the js folder-->
+</head>
+
+<body>
+    <!--header for web base application calculator square-->
+    <header>
+        <h1> Kalkulator Bangun Persegi </h1>
+    </header>
+
+    <fieldset>
+        <!--fieldset for greetings and definition-->
+        <section class="choices">
+            <p class="greetings"> Halo Selamat Datang! </p>
+            <p> Persegi merupakan bentuk bangun datar yang memiliki 4 sisi sama panjang dan semua sudut sudutnya sama
+                besar dan siku-siku.
+                <br> Kemudian dari pengertian tersebut dapat diperoleh bahwa setiap sudut persegi dibagi dua sama besar
+                oleh diagonalnya, dan setiap diagonalnya tersebut saling tegak lurus.
+                <br> Kemudian dari pengertian tersebut dapat diperoleh bahwa setiap sudut persegi dibagi dua sama besar
+                oleh diagonalnya, dan setiap diagonalnya tersebut saling tegak lurus.
+            </p>
+        </section>
+
+       
+    </fieldset>
+
+    <fieldset class="fieldRumus">
+        <!--filed for definition and formulas-->
+        <header class="headerRumus"> Rumus Persegi </header>
+        <img src="assets/persegi.jpeg" alt="gambar persegi" class="gambarPersegi">
+
+        <section class="rumusSectionLuas">
+            <!--this section for formulas-->
+            <h3> s = Sisi </h3>
+            <h3> Luas Persegi = s x s </h3>
+            <h3> Keliling Persegi = 4 x s </h3>
+        </section>
+    </fieldset>
+
+    <section class="InputSection">
+        <!--this section for calculate program-->
+        <label> Sisi Persegi </label>
+        <input type="number" id="inputSisi" placeholder="Masukkan sisi">
+    </section>
+
+    <section class="hasil">
+        <p> Luas : <input type="text" id="luas"></input> </p>
+        <p> Keliling : <input type="text" id="keliling"></input>  </p>
+    </section>
+
+    <section class="inputButtonSection">
+        <!--this section for give user to choose calculate or reset-->
+        <button onclick="btnHitung()"> Hitung </button>
+        <button onclick="btnReset()"> Reset </button>
+    </section>
+
+      
+
+
+    <footer>
+        <!--this is the footer of web base application-->
+        <p class="footerText"> Edi Kurniawan ~ Copyright © 2023 Powered by RevoU Fundamental Course </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

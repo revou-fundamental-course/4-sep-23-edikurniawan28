@@ -1,0 +1,123 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header {
+    background-color: #435334;
+    color: whitesmoke;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #435334;
+    color: whitesmoke;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+fieldset {
+    margin-top: 8px;
+    border: 2px solid #435334;
+}
+
+fieldset.fieldRumus {
+    padding: none;
+    border: 2px solid  #435334;
+}
+
+header.headerRumus {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bold;
+}
+
+img.gambarPersegi {
+    height: 260px;
+    width: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.diagonalP
+
+
+.rumusSection {
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+}
+
+p.footerText {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+p.greetings {
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.InputSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #7A9D54;
+}
+
+input {
+    padding: 6px;
+    border: 1px solid #516e31;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    padding: 8px 12px;
+    margin-left: 4px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #435334;
+    color: whitesmoke;
+}
+
+button:hover {
+    color: #435334;
+    background-color: #DAD4B5 ;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+input:focus {
+    border-color: #A8DF8E ;
+}
+
+.inputButtonSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8px;
+}
